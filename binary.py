@@ -4,7 +4,7 @@ tic = time.perf_counter()
 n = int(input("длина списка - "))
 s = [random.randint(1, 148) for _ in range(n)]
 s.sort()
-s_double = s.copy()
+s_double = s
 k = int(input("ваше число - "))
 def binary_search(s, k, s_double):
     low = 0
