@@ -4,7 +4,7 @@ tic = time.perf_counter()
 n = int(input("длина списка - "))
 s = [random.randint(1, 148) for _ in range(n)]
 s.sort()
-s_double = s.copy()
+s_double = s
 k = int(input("ваше число - "))
 def insert_sorted(s_double, k):
     for i in range(len(s_double)):
